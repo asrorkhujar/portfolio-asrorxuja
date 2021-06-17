@@ -45,3 +45,81 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* HEADER */
+.site__desc{
+  font-size: 24px;
+  font-style: italic;
+}
+.telephone-title{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.phone__link{
+  display: inline-block;
+  color: goldenrod;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: opacity 0.4s ease;
+}
+.phone__link:hover{
+  opacity: .6;
+}
+
+/* MAKET SECTION */
+
+.pratice__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.box__list{
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+.makets__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.makets__item, .pratice__item{
+  color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  background-color: goldenrod;
+  border-radius: 4px;
+  text-align: center;
+
+}
+.makets__item a{
+
+}
+
+.makets__item a:hover{
+  opacity: 0.7;
+}
+.pratice__item a:hover{
+  opacity: 0.7;
+}
+
+.footer-social-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.footer-social-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.footer-links{
+  text-decoration: none;
+  color: goldenrod;
+}
