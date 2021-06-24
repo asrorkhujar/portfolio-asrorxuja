@@ -69,7 +69,7 @@ img {
 
 /* MAKET SECTION */
 
-.pratice__list{
+.practice__list{
   padding: 0;
   margin: 0;
   list-style: none;
@@ -86,10 +86,10 @@ justify-content: space-between;
 }
 
 
-.makets__item, .pratice__item{
+.makets__item, .practice__item{
   color: brown;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: medium;
   margin-bottom: 15px;
   padding: 15px 20px;
   background-color: goldenrod;
@@ -98,18 +98,16 @@ justify-content: space-between;
 
 }
 
-.makets__item, .pratice__item:hover{
-  transform: ;
-}
-.makets__item a{
-
+.makets__item a, .practice__item a{
+color: white;
+transition: opacity 0.3s ease;
 }
 
 .makets__item a:hover{
-  opacity: 0.7;
+  opacity: 0.8;
 }
-.pratice__item a:hover{
-  opacity: 0.7;
+.practice__item a:hover{
+  opacity: 0.8;
 }
 .footer-head{
   color: dodgerblue;
@@ -128,4 +126,29 @@ justify-content: space-between;
 .footer-links{
   text-decoration: none;
   color: goldenrod;
+}
+
+@media only screen and (max-width: 855px) {
+  main{
+    background-color: #444;
+  }
+  .makets__item, .practice__item{
+    padding: 10px 5px;
+  }
+  .site__heading, .footer-head{
+    color: white;
+  }
+  .makets__section, .practice__section h2{
+    color: goldenrod;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+
+  .makets__item, .practice__item{
+    padding: 5px 0px;
+  }
+.practice__item, .makets__item, a {
+  font-size: 16px;
+}
 }
